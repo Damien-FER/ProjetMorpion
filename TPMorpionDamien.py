@@ -4,7 +4,7 @@ import random
 def afficher_tableau(tableau):
     for ligne in tableau:
         print(" | ".join(ligne))
-        print("-" * 5)
+        print("-" * 10)
 
 def verifier_victoire(tableau, symbole):
     # Vérification des lignes et des colonnes
